@@ -1,20 +1,19 @@
 # Housing data investigation and modeling
 ## Realty Kings
 
-<details><summary>Presentables</summary>
 
-[Presentation](./Presentation/Realty_Kings.pdf)
-[Presentation Video](./Video/Vid_Pres.mp4)
-[Relevant Blog](https://medium.com/@saifkasmani84/housing-data-investigation-and-linear-regression-modeling-6a809d1a1f72)
-</details>
+
+* [Presentation](./Presentation/Realty_Kings.pdf)
+* [Presentation Video](./Video/Vid_Pres.mp4)
+* [Blog](https://medium.com/@saifkasmani84/housing-data-investigation-and-linear-regression-modeling-6a809d1a1f72)
+
 
 ## Goal
 Given housing data for Kings County Seattle, to find price predictors and create a linear regression model capable of predicting potential prices for new homes. This README shall also serve as a genreal outline and explanation of the analysis and devolpment process.
 
 ## Outline
-<details><summary></summary>
+
 An exploration into distances did find some interesting trends that warrant further investigation and after numerous tried and failed attempts at using recursive feature elimination we settled on standard feature selection for our final model. While initially the model seemed promising, further investigation revealed our perceived model score to be artifically high due to the lack of a constant in the model.
-</details>
 
 ## Analysis
 <details><summary></summary>
@@ -60,6 +59,5 @@ However, further investigation showed that our test results weren't matching up 
 </details>
 
 ## Conclusion
-<details><summary></summary>
+
 Our investigation showed that numerous factors can influence the price of a house. Based off of our main investigations we can recommend rennovating the house before selling to provide a small improvement before selling, and if that renovation provides you with an opportunity to add square footage or additional rooms, it would be wise to do so in order to maximize the potential selling price. 
-</details>
